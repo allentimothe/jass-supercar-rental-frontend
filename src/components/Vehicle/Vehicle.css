@@ -1,0 +1,32 @@
+/* .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+} */
+
+.img {
+    width: 30%;
+    height: auto;
+
+} 
+
+.bold {
+    font-weight: bold;
+}
+
+span {
+    text-align: left;
+}
+
+.vehicle-info {
+    text-decoration: none;
+}
+
+.bold-text {
+    display: inline;
+    color: black;
+    font-size: 1em;
+
+}

@@ -1,8 +1,36 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
 }
 
-.App-logo {
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+
+}
+
+.lower {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#tcb-wrapper {
+  padding: 0;
+}
+/* .container {
+  margin: 0;
+  padding: 0;
+}  */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +63,22 @@
   to {
     transform: rotate(360deg);
   }
+} */ 
+
+
+input,
+textarea {
+  display: block;
 }
+#review-form {
+  background-color: rgb(227, 11, 11);
+}
+#rental-form {
+  background-color: blue;
+}
+.rental {
+  border: 3px solid orange;
+}
+/* img {
+  width: 40em;
+} */
